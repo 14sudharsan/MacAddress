@@ -20,8 +20,7 @@ It will automatically download docker image from docker hub and it will prompt f
  Enter the MacAddress : 44:8A:5B:B0:DD:A0
  
  Expected Output
- 
-#Micro-Star Int'L Co, Ltd associated with that Mac Address 44:8A:5B:B0:DD:A0
+ # Micro-Star Int'L Co, Ltd associated with that Mac Address 44:8A:5B:B0:DD:A0
 
 
 
