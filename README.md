@@ -17,10 +17,25 @@ Execute the following command to execute wrapper script
 
 It will automatically download docker image from docker hub and it will prompt for 
 
- Enter the MacAddress : 44:8A:5B:B0:DD:A0
- 
- Expected Output
- # Micro-Star Int'L Co, Ltd associated with that Mac Address 44:8A:5B:B0:DD:A0
+# Example Field name prompt if you leave blank it will print entire details of the mac address
+san@san:~/mac$ sh getmac.sh 
+ Enter the MacAddress : 34:02:86:6b:ef:0e
+Enter the Field Name ex vendorDetails (or) blockDetails (or) macAddressDetails : 
+{ vendorDetails: { oui: 340286, isPrivate: false, companyName: Intel Corp, companyAddress: Lot 8, Jalan Hi-Tech 2/3 Kulim Kedah 09000 MY, countryCode: MY }, blockDetails: { blockFound: true, borderLeft: 340286000000, borderRight: 340286FFFFFF, blockSize: 16777216, assignmentBlockSize: MA-L, dateCreated: 2014-04-22, dateUpdated: 2015-09-27 }, macAddressDetails: { searchTerm: 34:02:86:6b:ef:0e, isValid: true, virtualMachine: Not detected, applications: [], transmissionType: unicast, administrationType: UAA, wiresharkNotes: No details, comment: } }
+
+# Example if you want to print vendordetails follow below step
+san@san:~/mac$ sh getmac.sh 
+ Enter the MacAddress : 34:02:86:6b:ef:0e
+Enter the Field Name ex vendorDetails (or) blockDetails (or) macAddressDetails : vendorDetails
+{ oui: 340286, isPrivate: false, companyName: Intel Corp, companyAddress: Lot 8, Jalan Hi-Tech 2/3 Kulim Kedah 09000 MY, countryCode: MY }
+
+
+# Example if you want to print precisely companyName follow below step
+san@san:~/mac$ sh getmac.sh 
+ Enter the MacAddress : 34:02:86:6b:ef:0e
+Enter the Field Name ex vendorDetails (or) blockDetails (or) macAddressDetails : vendorDetails.companyName  
+# Intel Corp
+
 
 
 
