@@ -12,18 +12,18 @@ Step 2 Execute the following command to execute wrapper script
 
 It will automatically download docker image from docker hub and it will prompt 
 
-# Example if you want to print vendordetails follow below step
+# if you want to print vendordetails follow below step
  Enter the MacAddress : 34:02:86:6b:ef:0e
- Enter Apikey : xxxxxx
+ Enter Apikey : kindly enter valid api key 
 Enter the Field Name example vendorDetails (or)  with subfield vendorDetails.companyName : vendorDetails
 # { oui: 340286, isPrivate: false, companyName: Intel Corp, companyAddress: Lot 8, Jalan Hi-Tech 2/3 Kulim Kedah 09000 MY, countryCode: MY }
 
 
 
 
-# Example if you want to print precisely companyName follow below step
+# if you want to print precisely companyName follow below step
  Enter the MacAddress : 34:02:86:6b:ef:0e
- Enter Apikey : xxxxx
+ Enter Apikey : kindly enter valid api key
 Enter the Field Name example vendorDetails (or)  with subfield vendorDetails.companyName : vendorDetails.companyName
 # Intel Corp
 
