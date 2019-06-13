@@ -1,5 +1,0 @@
-#This docker file is just for reference how base image dockerfile is baked
-FROM ubuntu:18.04
-MAINTAINER Sudharsan J
-RUN apt-get update && apt-get install -y 
-RUN apt-get install curl -y && apt-get install jq -y
