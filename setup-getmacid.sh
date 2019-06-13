@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 echo Downloading getmacid microservice docker image please wait ...
-docker pull 14sudharsan/getmacid:version1
+docker pull 14sudharsan/getmacid:version2
 echo Docker container spawn from container image
-docker run -it 14sudharsan/getmacid:version1
+docker run -it 14sudharsan/getmacid:version2
