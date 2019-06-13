@@ -41,6 +41,8 @@ san@san:~/mac$ ./getmac.sh
 Enter the Field Name ex vendorDetails (or) blockDetails (or) macAddressDetails (or with subfield) vendorDetails.companyName : vendorDetails.companyName
 Intel Corp
 
+# Dockerfile base image creation steps captured state below link for your reference 
+https://github.com/14sudharsan/MacAddress/blob/master/Dockerfile-base-image-creation
 
 
 
