@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 read -p " Enter the MacAddress : " MacAddress
-json=$(curl -Gs "https://api.macaddress.io/v1?apiKey=at_j2YdcHWY1QH2N3B2VhsLhMJXjlfC4&output=json&search=$MacAddress" | jq ".vendorDetails.companyName" | sed 's/"//g')
-echo $json associated with that Mac Address $MacAddress
+read -p "Enter the Field Name ex vendorDetails (or) blockDetails (or) macAddressDetails (or with subfield) vendorDetails.companyName : " fieldname
+macdetails=$(curl -Gs "https://api.macaddress.io/v1?apiKey=$APIKEY&output=json&search=$MacAddress" | jq ".$fieldname" 
+echo $macdetails 
+#associated with that Mac Address $MacAddress
