@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo Downloading getmacid microservice docker image please wait ...
-docker pull 14sudharsan/getmacid:version6
+echo Please wait for a while docker building an image from dockerfile
+docker build -t getmac .
 echo Docker container spawn from container image
-docker run -it 14sudharsan/getmacid:version6
+docker run -it getmac:latest /bin/sh
