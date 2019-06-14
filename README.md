@@ -26,11 +26,13 @@ Once successfully Docker container spawn from docker image
 
 Then you will get an prompt like stated below from the docker container
 
- Enter the MacAddress : Enter valid mac address
- Enter Apikey : enter your apikey
- Enter the Field Name example vendorDetails (or)  with subfield vendorDetails.companyName : # Field name
+Enter the MacAddress : Enter valid mac address
  
- Options: for Field name
+Enter Apikey : enter your apikey
+ 
+Enter the Field Name example vendorDetails (or)  with subfield vendorDetails.companyName : # Field name
+ 
+Options: for Field name
  
  - vendorDetails
       * It will display vendor details to the respective mac address which you have entered above
