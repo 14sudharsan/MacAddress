@@ -14,9 +14,11 @@ Step 1 Git clone this repository
 
 git clone https://github.com/14sudharsan/MacAddress.git
 
-Step 2 Invoke the following command to execute wrapper script
+Step 2 Invoke the following command to execute wrapper script setup-getmacid.sh 
 
-It will automatically create docker image from docker file and will spawn docker container from the same image 
+First it will automatically create docker image from docker file 
+
+Then spawn docker container from the same image 
 
 # Usage
 
@@ -30,7 +32,7 @@ Then you will get an prompt like stated below
 
  Enter the MacAddress : Enter valid mac address
  Enter Apikey : enter your apikey
- Enter the Field Name example vendorDetails (or)  with subfield vendorDetails.companyName : Field name
+ Enter the Field Name example vendorDetails (or)  with subfield vendorDetails.companyName : # Field name
  
  Options: for Field name
  
