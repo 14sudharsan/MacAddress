@@ -30,7 +30,7 @@ Enter the MacAddress : Enter valid mac address
  
 Enter Apikey : enter your apikey
  
-Enter the Field Name example vendorDetails (or)  with subfield vendorDetails.companyName : # Field name
+Enter the Field Name example vendorDetails (or)  with subfield vendorDetails.companyName : # vendorDetails
  
 Options: for Field name
  
