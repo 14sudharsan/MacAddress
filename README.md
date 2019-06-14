@@ -14,11 +14,7 @@ Step 1 Git clone this repository
 
 git clone https://github.com/14sudharsan/MacAddress.git
 
-Step 2 Invoke the following command to execute wrapper script setup-getmacid.sh 
-
-First it will automatically create docker image from docker file 
-
-Then spawn docker container from the same image 
+Step 2 Invoke the following command to execute wrapper script  
 
 # Usage
 
