@@ -1,5 +1,5 @@
 # Prerequisite
-* Install following softwares docker , Git client on your system
+* Install following softwares like Docker , Git client on your system
 * In order to fetch mac address details from https://macaddress.io/ first signup and get your apikey
 
 
@@ -26,9 +26,9 @@ Then spawn docker container from the same image
 
 Please wait for a while docker building an image from dockerfile
 
-Once successfully Docker container spawn from container image
+Once successfully Docker container spawn from docker image
 
-Then you will get an prompt like stated below
+Then you will get an prompt like stated below from the docker container
 
  Enter the MacAddress : Enter valid mac address
  Enter Apikey : enter your apikey
