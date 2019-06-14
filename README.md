@@ -14,9 +14,13 @@ Step 1 Git clone this repository
 
 git clone https://github.com/14sudharsan/MacAddress.git
 
+
+
 Step 2 Invoke the following command to execute wrapper script  
 
 # Usage
+
+cd MacAddress
 
 ./setup-getmacid.sh
 
