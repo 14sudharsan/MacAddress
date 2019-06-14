@@ -1,4 +1,4 @@
-# prerequisite
+# Prerequisite
 * Install docker , Git client on your system
 * In order to fetch mac address details from https://macaddress.io/ first signup and get your apikey
 
