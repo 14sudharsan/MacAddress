@@ -38,8 +38,8 @@ Then you will get an prompt like stated below from the docker container
  - vendorDetails.companyName
       * It will display precisely companyName subfield from vendor details use this option
       
- - 
-      * If you leave blank in the field name prompt and press enter will display all the details to the respective mac address 
+ - If you leave blank in the field name prompt and press enter
+      * It will display all the details to the respective mac address 
  
 
 
