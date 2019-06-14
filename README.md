@@ -1,14 +1,11 @@
 # Prerequisite
 * Install following softwares like Docker , Git client on your system
-* In order to fetch mac address details from https://macaddress.io/ first signup and get your apikey
-
+* Apikey has to be aquired with https://macaddress.io
 
 
 # Overview :
+This tool aims to obtain the necessary details about the mac address from https://macaddress.io
 
-Purpose of this docker container
- 
-Our ultimate aim is to get Company Name associated with that MAC address
 
 Step 1 Git clone this repository
 
@@ -16,19 +13,13 @@ git clone https://github.com/14sudharsan/MacAddress.git
 
 
 
-Step 2 Invoke the following command to execute wrapper script  
+Step 2 Invoke the following command to execute wrapper script  with the 
 
-# Usage
+First argument as MacAddress , Second argument as Apikey and Third argument with below options
 
 cd MacAddress
 
 ./setup-getmacid.sh
-
-Please wait for a while docker building an image from dockerfile
-
-Once successfully Docker container spawn from docker image
-
-Then you will get an prompt like stated below from the docker container
 
 Enter the MacAddress : Enter valid mac address
  
@@ -39,7 +30,7 @@ Enter the Field Name example vendorDetails (or)  with subfield vendorDetails.com
 Options: for Field name
  
  - vendorDetails
-      * It will display vendor details to the respective mac address which you have entered above
+      * It will display vendor details to the respective mac address 
       
  - vendorDetails.companyName
       * It will display precisely companyName subfield from vendor details use this option
