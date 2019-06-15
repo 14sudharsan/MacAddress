@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-read -p "Help option to display  Field Names (y/n)? " answer
+read -p "Help page to display  Field Names (y/n)? " answer
 case ${answer:0:1} in
     y|Y )
         echo "
