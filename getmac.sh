@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-read -p "Do you need any help to get  Field Names and expected outputs (y/n)? " answer
+read -p "Help option to display  Field Names (y/n)? " answer
 case ${answer:0:1} in
     y|Y )
         echo "
