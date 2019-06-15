@@ -19,7 +19,9 @@ First argument as MacAddress , Second argument as Apikey and Third argument with
 
 cd MacAddress
 
-./setup-getmacid.sh
+./setup-getmacid.sh 
+
+Help page to display  Field Names options (y/n)?
 
 Enter the MacAddress : Enter valid mac address
  
