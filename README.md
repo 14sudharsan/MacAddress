@@ -14,14 +14,11 @@ Prerequisites
   3.signup in https://macaddress.io and get the apikey to used in program to generate the output.
 
 
-# Overview :
-This tool aims to obtain the necessary details about the mac address from https://macaddress.io
+# Usage
 
-
-Step 1 Git clone this repository
+Step 1  clone this repo
 
 git clone https://github.com/14sudharsan/MacAddress.git
-
 
 
 Step 2 Invoke the following command to execute wrapper script  with the 
