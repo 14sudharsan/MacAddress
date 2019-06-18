@@ -1,6 +1,17 @@
-# Prerequisite
-* Install following softwares like Docker , Git client on your system
-* Apikey has to be aquired with https://macaddress.io
+PROJECT DESCRIPTION
+============================
+
+   This project about program that will query https://macaddress.io ,returning with output MACaddress associated with which company and dockerize the below program that will take command line arguments.
+   
+Prerequisites
+==========================
+  1. Any Linux server(mine is ubuntu 18.04) with Docker installed.
+  
+  
+  2. Install following linux packages curl and jq
+  
+  
+  3.signup in https://macaddress.io and get the apikey to used in program to generate the output.
 
 
 # Overview :
