@@ -1,0 +1,10 @@
+Options: For Field name
+ 
+ - vendorDetails
+       It will display vendor details to the respective mac address 
+      
+ - vendorDetails.companyName
+       It will display precisely companyName subfield from vendor details use this option
+      
+ - If you leave blank and press enter
+       It will display all the details of the respective mac address
