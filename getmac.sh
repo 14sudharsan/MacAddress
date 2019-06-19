@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 #capture current working directory
 cwd=$(pwd)
 
@@ -23,23 +23,16 @@ fi
 #getting apikey from user input
 read -p " Enter the apikey : " apikey
 
-#getting field name from user input
-read -p "Enter the Field Name : " fieldname
+if  [ "$apikey" == "help" ]
 
-
-
-#help page output
-while IFS= read -r help_page
-do
-echo $help_page
-done < "$cwd/help_page"
-
-if test "$fieldname" = "help"
 then
-     exit
+        cat $cwd/help_page
+exit
 fi
 
 
+#getting field name from user input
+read -p "Enter the Field Name : " fieldname
 
 while IFS= read -r line
 
