@@ -44,7 +44,7 @@ fi
 while IFS= read -r line
 
 do
-        curl -Gs "https://api.macaddress.io/v1?apiKey=$apikey&output=json&search=$1"$line | jq ".$fieldname "| sed -e '1,11d'
+        curl -Gs "https://api.macaddress.io/v1?apiKey=$apikey&output=json&search=$1"$line | jq ".$fieldname "
 
 done < "$filepath"
 exit
