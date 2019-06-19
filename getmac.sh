@@ -1,30 +1,50 @@
-#!/usr/bin/env bash
-read -p "Help page to display  Field Names options (y/n)? " answer
-case ${answer:0:1} in
-    y|Y )
-        echo "
-        
-       Options: for Field name
-       
-vendorDetails
+#!/usr/bin/bash
+#capture current working directory
+cwd=$(pwd)
 
-    * It will display vendor details to the respective mac address
+#input file for macaddress
+filepath=$cwd/macaddress-input.txt
 
-vendorDetails.companyName
+#check condition for macaddress inputfile
+if [ -f $filepath ]
+then
+    if [ -s $filepath ]
+    then
+        echo ""
+    else
+        echo "File exists but empty"
+        exit
+    fi
+else
+    echo "File not exists $filepath"
+    exit
+fi
 
-    * It will display precisely companyName subfield from vendor details use this option
+#getting apikey from user input
+read -p " Enter the apikey : " apikey
 
-If you leave blank and press enter
+#getting field name from user input
+read -p "Enter the Field Name : " fieldname
 
-    *It will display all the details of the respective mac address
-"
-    ;;
-    * )
-     echo   No
-    ;;
-esac
-#!/usr/bin/env bash
-read -p " Enter the MacAddress : " MacAddress
-read -p "Enter the Field Name ex vendorDetails (or with subfield) vendorDetails.companyName : " fieldname
-macdetails=$(curl -Gs "https://api.macaddress.io/v1?apiKey=$1&output=json&search=$MacAddress" | jq ".$fieldname")
-echo $macdetails
+
+
+#help page output
+while IFS= read -r help_page
+do
+echo $help_page
+done < "$cwd/help_page"
+
+if test "$fieldname" = "help"
+then
+     exit
+fi
+
+
+
+while IFS= read -r line
+
+do
+        curl -Gs "https://api.macaddress.io/v1?apiKey=$apikey&output=json&search=$1"$line | jq ".$fieldname "| sed -e '1,11d'
+
+done < "$filepath"
+exit
