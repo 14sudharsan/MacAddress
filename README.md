@@ -1,13 +1,13 @@
 PROJECT DESCRIPTION
 ============================
 
-   This project about program that will query https://macaddress.io ,returning with output MACaddress associated with which company and dockerize the below program that will take command line arguments.
+  This tool aims to obtain the necessary details about the mac address from https://macaddress.io
    
 Prerequisites
 ==========================
-  1. Any Linux server(mine is ubuntu 18.04) with Docker installed.
+  1. Any Linux server with Docker installed.
   
-  2. signup in https://macaddress.io and get the apikey to used in program to generate the output.
+  2. Apikey has to be aquired with https://macaddress.io
 
 
 Usage
@@ -41,7 +41,6 @@ Here having wrapper script <setup-getmacid.sh> to automate the docker image buil
     
                                         enter apikey: help
      
-
 
 
 
