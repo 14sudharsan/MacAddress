@@ -37,8 +37,7 @@ Here having bash  script <setup-getmacid.sh> to automate the docker image buildi
    
                           enter Field name: <give the Field name which you want to search>                         
 
-   Enter the Field Name  : # <field name >
- 
+   
 
  If user found any difficult run the script when user type Help it will show READme.md file
     
