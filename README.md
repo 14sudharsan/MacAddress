@@ -23,42 +23,27 @@ git clone https://github.com/14sudharsan/MacAddress.git
 
 Step 2 Invoke the following command to execute wrapper script  with the 
 
-First argument as MacAddress , Second argument as Apikey and Third argument with below options
 
-cd MacAddress
 
-./setup-getmacid.sh 
+Here having bash  script <setup-getmacid.sh> to automate the docker image buildingand running process.Now run the above script.
 
-Help page to display  Field Names options (y/n)?
+                             sh setup-getmacid.sh  
 
-Enter the MacAddress : Enter valid mac address
- 
-Enter Apikey : enter your apikey
- 
-Enter the Field Name example vendorDetails (or)  with subfield vendorDetails.companyName : # vendorDetails
- 
-Options: for Field name
- 
- - vendorDetails
-      * It will display vendor details to the respective mac address 
-      
- - vendorDetails.companyName
-      * It will display precisely companyName subfield from vendor details use this option
-      
- - If you leave blank and press enter
-      * It will display all the details of the respective mac address 
+   when you run above command it will ask to prompt the apikey and give apikey value 
+     
+                           enter apikey: <your api key>
+
+   After that it will ask about to prompt field name which you want search
+   
+                          enter Field name: <give the Field name which you want to search>                         
+
+   Enter the Field Name  : # <field name >
  
 
-
-
-
-
-
-
-
-
-
-
+ If user found any difficult run the script when user type Help it will show READme.md file
+    
+                                        enter apikey: help
+     
 
 
 
