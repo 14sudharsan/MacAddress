@@ -7,11 +7,7 @@ Prerequisites
 ==========================
   1. Any Linux server(mine is ubuntu 18.04) with Docker installed.
   
-  
-  2. Install following linux packages curl and jq
-  
-  
-  3. signup in https://macaddress.io and get the apikey to used in program to generate the output.
+  2. signup in https://macaddress.io and get the apikey to used in program to generate the output.
 
 
 Usage
