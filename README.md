@@ -11,7 +11,7 @@ Prerequisites
   2. Install following linux packages curl and jq
   
   
-  3.signup in https://macaddress.io and get the apikey to used in program to generate the output.
+  3. signup in https://macaddress.io and get the apikey to used in program to generate the output.
 
 
 # Usage
@@ -21,11 +21,10 @@ Step 1  clone this repo
 git clone https://github.com/14sudharsan/MacAddress.git
 
 
-Step 2 Invoke the following command to execute wrapper script  with the 
+Step 2 Invoke the following command to execute wrapper script 
 
 
-
-Here having bash  script <setup-getmacid.sh> to automate the docker image buildingand running process.Now run the above script.
+Here having wrapper script <setup-getmacid.sh> to automate the docker image buildingand running process.Now run the above script.
 
                              sh setup-getmacid.sh  
 
