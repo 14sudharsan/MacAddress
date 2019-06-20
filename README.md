@@ -21,9 +21,8 @@ Step 1  clone this repo
 
 git clone https://github.com/14sudharsan/MacAddress.git
 
-Step 2 Enter valid mac address in the following input file macaddress-input.txt 
-       to eild output of MACaddress associated with which company
-
+Step 2 Enter valid mac address  macaddress-input.txt  to yield output of MACaddress associated with which company 
+        
 
 Step 3 Invoke the following command to execute wrapper script 
 
