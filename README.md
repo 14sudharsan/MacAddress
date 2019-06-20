@@ -24,7 +24,7 @@ git clone https://github.com/14sudharsan/MacAddress.git
 Step 2 Invoke the following command to execute wrapper script 
 
 
-Here having wrapper script <setup-getmacid.sh> to automate the docker image buildingand running process.Now run the above script.
+Here having wrapper script <setup-getmacid.sh> to automate the docker image building and running process.Now run the above script.
 
                              sh setup-getmacid.sh  
 
